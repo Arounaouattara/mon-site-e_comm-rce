@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barou_Bazin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style du header et du menu */
+header {
+    background-color: #28a745; /* Fond vert pour toute la ligne */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    flex: 1; /* Chaque élément prend une largeur égale */
+    text-align: center; /* Centrer le texte dans chaque élément */
+}
+
+nav ul li a {
+    display: block;
+    color: white;  /* Texte blanc */
+    text-decoration: none;
+    padding: 10px 20px;  /* Padding autour du texte */
+    font-size: 16px;  /* Taille du texte */
+    background-color: transparent;  /* Fond transparent pour les éléments */
+    transition: background-color 0.3s;  /* Transition douce pour l'effet de survol */
+}
+
+nav ul li a:hover {
+    background-color: #218838;  /* Fond plus foncé au survol */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .produits {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .produit {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .produit img {
+            width: 100%;
+            height: auto;
+        }
+
+        .cta {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .cta:hover {
+            background-color: #218838;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: flex;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .panier-container {
+            margin: 20px;
+        }
+
+        .produits-panier {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .produit-panier {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+        .produit-panier img {
+            width: 50px;
+            height: auto;
+        }
+
+        .panier-total {
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: right;
+        }
+
+        .cta {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .cta:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête du site -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#">Accueil</a></li>
+                <li><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#">Produits</a></li>
+                <li><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#">Panier</a></li>
+                <li><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenue sur BAROU_BAZIN</h1>
+        <p>Découvrez nos produits exclusifs de Bazin Riche !</p>
+        
+        <!-- Section Contact -->
+        <section id="contact">
+            <h2>Contactez Oumar Djilla</h2>
+            <p>Pour toute question, vous pouvez nous contacter via les moyens suivants :</p>
+            <ul>
+                <li><strong>Téléphone :</strong> 22390301923</li>
+                <li><strong>E-mail :</strong> BAROU_BAZIN@gmail.com</li>
+                <li><strong>Adresse :</strong> BANAKABOUGOU TERMICE, Bamako, Mali</li>
+                <li><strong>WhatsApp :</strong> 
+                    <a href="https://wa.me/22392727846" target="_blank">
+                        <img src="./Barou_Bazin_files/WhatsApp.svg" alt="WhatsApp" width="30" height="30">
+                        Cliquez ici pour nous contacter sur WhatsApp
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+        
+    <!-- Section des produits  -->
+    <main>
+        <h1>Nos Meilleurs Produits Bazin Riche</h1>
+        <section class="produits">
+            <div class="produit">
+                <img src="./Barou_Bazin_files/bazin riche.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Premium</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                <a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche1.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Haut de Gamme</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                </a><p><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">Prix : 12000 FCFA pour trois mètres/p&gt;
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></p></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche2.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Excellence</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche3.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Élégance</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche4.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Prestige</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche5.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Luxe</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche6.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Élégant</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche7.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Royal</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche8.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Grandeur</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche9.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Majesté</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix :12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche10.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Souverain</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche12.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Classique</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin11.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Prestige Royale</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche13.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Imperial</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche14.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Incontournable</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+            </a><div class="produit"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <img src="./Barou_Bazin_files/bazin riche15.jpg" alt="Bazin Riche">
+                <h3>Bazin Riche Incontournable</h3>
+                <p>Meilleurs qualiter , toute couleur.</p>
+                <p>Prix : 12000 FCFA pour trois mètres</p>
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Acheter maintenant</a>
+                <a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                    <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                        Acheter sur WhatsApp
+                    </button>
+                    <button class="livraison" onclick="afficherLivraison()">Livraison posible</button>
+            </a></div><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+            </a><div class="panier-container"><a href="https://wa.me/22390301923?text=Je%20souhaite%20acheter%20le%20Bazin%20Riche%20Classique" target="_blank">
+                <h1>Votre Panier</h1>
+                <div class="produits-panier" id="panier"><div class="produit-panier">
+                            <img src="file:///C:/Users/ACER/Desktop/Barou_bazin/image/bazin1.jpg" alt="Bazin Riche Premium">
+                            <div>
+                                <h3>Bazin Riche Premium</h3>
+                                <p>80€</p>
+                            </div>
+                            <button onclick="supprimerDuPanier(0)">Supprimer</button>
+                        </div><div class="produit-panier">
+                            <img src="file:///C:/Users/ACER/Desktop/Barou_bazin/image/bazin2.jpg" alt="Bazin Riche Haut de Gamme">
+                            <div>
+                                <h3>Bazin Riche Haut de Gamme</h3>
+                                <p>85€</p>
+                            </div>
+                            <button onclick="supprimerDuPanier(1)">Supprimer</button>
+                        </div></div>
+        
+                <div class="panier-total">
+                    <p>Total : <span id="total">165€</span></p>
+                </div>
+        
+                </a><a href="file:///C:/Users/ACER/Desktop/Barou_bazin/image/index.html#" class="cta">Finaliser la commande</a>
+            </div>
+        
+            <script>
+                // Données des produits (exemple)
+                const produits = [
+                    { id: 1, nom: 'Bazin Riche Premium', prix: 80, image: 'bazin1.jpg' },
+                    { id: 2, nom: 'Bazin Riche Haut de Gamme', prix: 85, image: 'bazin2.jpg' },
+                    { id: 3, nom: 'Bazin Riche Excellence', prix: 90, image: 'bazin3.jpg' },
+                    // Ajoute d'autres produits ici si nécessaire
+                ];
+        
+                // Panier de l'utilisateur
+                let panier = [];
+        
+                // Fonction pour ajouter un produit au panier
+                function ajouterAuPanier(idProduit) {
+                    const produit = produits.find(p => p.id === idProduit);
+                    panier.push(produit);
+                    afficherPanier();
+                }
+        
+                // Fonction pour afficher le panier
+                function afficherPanier() {
+                    const panierElement = document.getElementById('panier');
+                    panierElement.innerHTML = ''; // Vider le panier avant d'afficher
+                    let total = 0;
+        
+                    panier.forEach((produit, index) => {
+                        const produitElement = document.createElement('div');
+                        produitElement.classList.add('produit-panier');
+                        produitElement.innerHTML = `
+                            <img src="${produit.image}" alt="${produit.nom}">
+                            <div>
+                                <h3>${produit.nom}</h3>
+                                <p>${produit.prix}€</p>
+                            </div>
+                            <button onclick="supprimerDuPanier(${index})">Supprimer</button>
+                        `;
+                        panierElement.appendChild(produitElement);
+                        total += produit.prix;
+                    });
+        
+                    // Afficher le total du panier
+                    document.getElementById('total').innerText = `${total}€`;
+                }
+        
+                // Fonction pour supprimer un produit du panier
+                function supprimerDuPanier(index) {
+                    panier.splice(index, 1); // Supprimer le produit à l'index donné
+                    afficherPanier();
+                }
+        
+                // Ajouter quelques produits au panier pour démonstration
+                ajouterAuPanier(1); // Bazin Riche Premium
+                ajouterAuPanier(2); // Bazin Riche Haut de Gamme
+            </script>
+        
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 BAROU_BAZIN. Tous droits réservés.</p>
+    </footer>
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="https://wa.me/22392727846?text=Je%20souhaite%20acheter%20ce%20produit" target="_blank">
+            <button style="padding: 10px 20px; background-color: #25D366; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+                Acheter sur WhatsApp
+            </button>
+        </a>
+    </div>
+    <script>
+        // Obtenez les éléments du DOM
+        var modal = document.getElementById("myModal");
+        var img = document.getElementById("productImg");
+        var modalImg = document.getElementById("imgModal");
+        var span = document.getElementsByClassName("close")[0];
+
+        // Lorsque l'utilisateur clique sur l'image, ouvrez la fenêtre modale
+        img.onclick = function() {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+        }
+        
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <footer>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://barou_bazin.com" target="_blank">
+            <button>Partager sur Facebook</button>
+          </a>
+    </footer>
+    <script>
+    function partagerEtRediriger() {
+      // URL de ton produit ou page que tu veux partager
+      var url = "https://BAROU_BAZIN.com";
+      var facebookUrl = "https://www.Facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+      
+      // Ouvre la fenêtre de partage de Facebook
+      window.open(facebookUrl, '_blank');
+
+      // Après quelques secondes (par exemple 3 secondes), redirige vers une autre page
+      setTimeout(function() {
+        window.location.href = "https://Facebook.com/merci"; // Page de remerciement ou autre page
+      }, 3000); // 3000 millisecondes = 3 secondes
+    }
+  </script>
+
+
+  <!-- Bouton de partage -->
+  <button onclick="partagerEtRediriger()">Partager sur Facebook</button>
+  <script>
+    function partager() {
+      var url = "https://BAROU_BAZIN.com";
+      var facebookUrl = "https://www.barou_bazin.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+      
+      // Ouvre le partage sur Facebook
+      window.open(facebookUrl, '_blank');
+
+      // Affiche un message de confirmation ou de remerciement
+      alert("Merci d'avoir partagé ! Nous vous redirigeons maintenant vers la prochaine étape.");
+      
+      // Redirige l'utilisateur après le message
+      window.location.href = "https://barou_bazin.com/merci"; // Page de remerciement
+    }
+  </script>
+
+
+  <!-- Bouton de partage -->
+  <button onclick="partager()">Partager sur Facebook</button>
+  <button onclick="partagerEtSuivre()">Partager sur Facebook</button>
+
+<script>
+  function partagerEtSuivre() {
+    var url = "https://barou_bazin.com";
+    var facebookUrl = "https://www.Facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url);
+    
+    // Ouvre la fenêtre de partage
+    window.open(facebookUrl, '_blank');
+    
+    // Suivi de l'événement dans Google Analytics
+    if (typeof gtag === 'function') {
+      gtag('event', 'partage', {
+        'event_category': 'social',
+        'event_label': 'Partager sur Facebook'
+      });
+    }
+
+    // Redirige après le partage
+    setTimeout(function() {
+      window.location.href = "https://barou_bazin.com/merci"; // Page de remerciement
+    }, 3000); // Attendre 3 secondes
+  }
+</script>
+
+
+
+
+
+
+</body></html>
